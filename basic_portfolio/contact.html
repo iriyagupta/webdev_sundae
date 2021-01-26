@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+  	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="tester.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer="" src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="scripts.js"></script>
+    <title>Ping me</title>
+  </head>
+  <body>
+    <header class="header">
+        <div class="container">
+          <div class="header__logo">
+            <img src="udacity.jpg" alt="logo" class='logo'>
+          </div>
+          <div class="header__title">
+            <nav id="drawer" class="nav">
+            </nav>
+          </div>
+        </div>
+      </header>
+    <div class="form" >
+      <section class="text-title">
+        <div class="cols">
+          <h1 class="title">Ping me here!</h1>
+        </div>
+      </section>
+      <form action="/action_page.php"" method="post">
+        <section id="forms">
+          <div class="cont">
+            <div class="con col-md-6">
+              <label for="first">Name</label>
+                <input type="text" id="first" name="firstname" placeholder="Your name..">
+            </div>
+            <div class="con col-md-6">
+                <label for="mails">Email</label>
+                <input type="email" id="mails" name="mail" placeholder="Your mail id">
+            </div>
+            <div class="con col-md-12">
+                <label for="msg">Message</label>
+                  <textarea class="textarea is-large" name="message" rows="5" required placeholder="Your message" id="msgs"></textarea>
+            </div>
+            <div class="con col-md-12">
+                <input type="submit" id="rst" value="Submit">
+            </div>  
+          </div>              
+        </section>
+      </form>
+    </div>
+  </body>
+</html>

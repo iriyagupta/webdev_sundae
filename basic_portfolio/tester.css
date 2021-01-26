@@ -1,0 +1,326 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+body,html{
+	margin:0;
+  padding:0;
+	width: 100%;
+  height: 100%;
+}
+body{
+  font-family: 'Lato', sans-serif;
+}
+header, footer, div , section  {
+  box-sizing: border-box;
+}
+header:after{
+    content: "";
+    display: block;
+    width: 90%;
+    margin:auto;
+    margin-top: 10px;
+    height: 2px;
+    background-color: #FFCC80;
+    border-radius: 5px;
+}
+main {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 25%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+.container{
+  width: 95%;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header__logo {
+  display: block;
+  height: auto;
+  width:80px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo{
+  width:80px;
+  margin-right: 1em;
+  vertical-align: top;
+  margin-top: 12px;
+  box-sizing: border-box;
+}
+.header__title {
+  margin-left: auto;
+  text-align: right;
+  margin-top:0.5em;
+  font-size: 4rem;
+}
+
+/*image*/
+.introduction{
+  background: url("Riya.jpg") no-repeat center center fixed;
+  background-size: cover; 
+  max-width:100%;
+  height:600px;
+  position: relative;
+  margin-top:0.8em;
+}
+.description p{
+  padding-left: 1em;
+}
+.description h2{
+  padding: 0.5em;
+}
+/*navigation*/
+.nav__item {
+  box-sizing: border-box;
+  display: inline-block;
+  width:20%;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+.nav a {
+  padding:1em;
+}
+
+
+/*section*/
+
+.sec.skills {
+    padding-bottom: 1rem;
+}
+.sec {
+    padding: 3rem 1.5rem;
+}
+.has-text-centered {
+    text-align: center !important;
+}
+.boxes.is-narrow {
+    max-width: 1200px;
+}
+.boxes {
+    margin: 0 auto;
+    position: relative;
+}
+.sec.skills .box {
+    padding: 0;
+}
+.box {
+    border-radius: 12px;
+}
+.box {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 5px 5px 0 rgba(233,240,243,0.5), 0 0 0 1px #E6ECF8;
+    color: #293347;
+    padding: 1.25rem;
+    box-sizing: inherit;
+}
+.sec.skills .box .content .columns {
+    margin-left: 0;
+    margin-right: 0;
+}
+.columns.is-centered {
+    justify-content: center;
+}
+.sec.skills .box .content .columns .column {
+    padding: 50px 30px;
+    border-bottom: 1px solid #E6ECF8;
+    border-right: 0px solid #E6ECF8;
+}
+.column {
+    display:block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.para{
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+.column h3 , h4{
+  margin-bottom: 1em;
+  color: #FB8C00;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
+ul {
+  list-style-type: none;
+}
+
+
+.sec.skills .box .content .columns .column {
+    border-bottom: 0px solid #E6ECF8;
+    border-right: 1px solid #E6ECF8;
+    padding: 60px 35px;
+}
+.para{
+  font-size: 16px;
+  }
+.lists{
+  font-size: 16px;
+  }
+p{
+  font-size: 16px;
+  }
+}
+
+
+
+/*for projects*/
+.projects {
+    padding-bottom: 1rem;
+    padding: 3rem 1.5rem;
+    height:auto;
+    margin-top: 10px;
+}
+
+}    
+.images-box {
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 1100px;
+}
+.image-responsive{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 300px;
+  width: 100%;
+  -webkit-filter: blur(.5px); 
+  filter: blur(.5px);
+  position:relative;
+  margin-top: 10px;
+}
+.projects h3{
+  color: #FB8C00;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+.projects p{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+.image-responsive.blur{
+  filter: blur(4.5px);
+}
+
+/*footer*/
+footer:before{
+    content: "";
+    display: block;
+    width: 90%;
+    margin:auto;
+    margin-bottom: 10px;
+    height: 2px;
+    background-color: #FFCC80;
+    border-radius: 5px;
+}
+footer{
+  text-align: center;
+}
+
+div#social{
+    margin: 0 auto 3rem;
+}
+
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+}
+
+a:hover [class*="zocial-"]:before {
+  color: #3d85c6;
+}
+
+div#social a {
+  margin: 0 1em 0 0;
+}
+
+div#social a:last-of-type {
+  margin: 0;
+}
+
+
+/*contact*/
+.title{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
+.cont {
+    padding: 10px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1.25rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #FFA726;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #FFCC80;
+}
+#forms{
+  justify-content: center;
+  text-align: center;
+}
+
+/*responsive*/
+/*logo*/
+@media screen and (max-width: 549px) {
+  .header__logo {
+    height: 30px;
+    margin-right: 0.5em;
+  }
+  .header__title {
+    margin-left: 0;
+    font-size: 2em;
+  }
+}
+@media screen and (min-width: 750px){
+.columns{
+      display: flex;
+        }
+}
